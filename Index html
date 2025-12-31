@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy New Year 2026 Shreya ❤️</title>
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+        background: black;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.15);
+        padding: 45px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 520px;
+        color: white;
+        backdrop-filter: blur(10px);
+        z-index: 10;
+        animation: fadeIn 2.5s ease-in-out;
+    }
+
+    h1 {
+        font-size: 2.8em;
+        color: #ff6fae;
+        text-shadow: 0 0 20px #ff6fae;
+    }
+
+    h2 {
+        margin-top: 10px;
+        color: #ffd1e8;
+    }
+
+    p {
+        margin-top: 18px;
+        font-size: 1.15em;
+        line-height: 1.7;
+    }
+
+    .heart {
+        font-size: 3em;
+        margin-top: 20px;
+        animation: heartbeat 1.4s infinite;
+    }
+
+    @keyframes heartbeat {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.4); }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translate(-50%, -40%); }
+        to { opacity: 1; transform: translate(-50%, -50%); }
+    }
+</style>
+</head>
+<body>
+
+<canvas id="fireworks"></canvas>
+
+<div class="card">
+    <h1>Happy New Year 2026 🎆</h1>
+    <h2>My Love, Shreya 💖</h2>
